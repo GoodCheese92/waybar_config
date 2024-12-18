@@ -123,7 +123,7 @@
     "format-alt" : "󰒢 {bandwidthTotalBits}",
     "on-click": "alacritty -e nmtui",
     "on-click-right": "nm-connection-editor",
-    "format-ethernet": " wired",
+    "format-ethernet": "󰒢 wired",
     "tooltip-format": "{essid} {signalStrength}%",
     "format-disconnected": ""
   },
