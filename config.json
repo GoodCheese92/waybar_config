@@ -18,7 +18,8 @@
     "custom/filler",
     "disk",
     "custom/filler",
-    "custom/pacman"
+    "custom/pacman",
+    "custom/window-name"
   ],
   "modules-center": ["hyprland/workspaces"],
   "modules-right": [
@@ -30,7 +31,8 @@
     "custom/separator",
     "network",
     "custom/dot",
-    "clock"
+    "clock",
+    "custom/powermenu"
   ], 
   "custom/playerctl": {
       "format": "[<span foreground='#46c880'>  </span> <span>{}</span> ]",
@@ -61,9 +63,9 @@
     "all-outputs": true,
     "active-only": false,
     "on-click": "activate",
-    "format": "{icon}",
     "on-scroll-up": "hyprctl dispatch workspace e+1",
     "on-scroll-down": "hyprctl dispatch workspace e-1",
+    // "format": "{icon}",
     "format-icons": {
       "1": "",
       "2": "",
@@ -133,7 +135,7 @@
     "format-bluetooth": " {volume}",
     "format-bluetooth-muted": " ",
     "tooltip": false,
-    "format-muted": "",
+    "format-muted": "󰝟",
     "format-icons": {
       "default": ["󰝟", "", "󰕾" , ""]
     },
@@ -199,5 +201,11 @@
 
   "custom/wrap-right": {
     "format": "<b>]</b>"
+  },
+
+  "custom/powermenu": {
+    "format": "",
+    "on-click": "alacritty ~/.config/rofi/powermenu/type-1/powermenu.sh",
+    "tooltip": false
   }
 }

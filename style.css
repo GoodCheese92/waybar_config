@@ -1,11 +1,11 @@
-
 * {
   padding: 0;
   margin: 0;
   font-family: Hack Nerd Font;
   font-weight: bold;
   font-size: 16px;
-  background-color: #1a1c2b; /* Reduced opacity background */ 
+  background-color: #1a1c2b;
+  /* Reduced opacity background */
 }
 
 .modules-right {
@@ -95,6 +95,11 @@ window#waybar {
 #custom-pacman-update {
   color: #8bd5ca;
   margin: 5px 10px 5px 0px;
+}
+
+#workspaces button.active {
+  color: #FFFFFF;
+  border-bottom: 3px solid white;
 }
 
 #workspaces button:nth-child(1) label {
@@ -242,5 +247,13 @@ window#waybar {
   color: #FFFFFF;
 }
 
-/*# sourceMappingURL=style.css.map */
+#custom-powermenu {
+  color: #FF0000;
+  border-bottom-color: #951c1f;
 
+  margin-right: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+/*# sourceMappingURL=style.css.map */
