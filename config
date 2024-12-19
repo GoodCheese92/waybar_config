@@ -31,8 +31,7 @@
     "custom/separator",
     "network",
     "custom/dot",
-    "clock",
-    "custom/powermenu"
+    "clock"
   ], 
   "custom/playerctl": {
       "format": "[<span foreground='#46c880'>  </span> <span>{}</span> ]",
@@ -205,7 +204,7 @@
 
   "custom/powermenu": {
     "format": "",
-    "on-click": "alacritty ~/.config/rofi/powermenu/type-1/powermenu.sh",
+    "on-click": "~/.config/rofi/powermenu/type-1/powermenu.sh",
     "tooltip": false
   }
 }
