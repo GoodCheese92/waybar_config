@@ -18,8 +18,7 @@
     "custom/filler",
     "disk",
     "custom/filler",
-    "custom/pacman",
-    "custom/window-name"
+    "custom/pacman"
   ],
   "modules-center": ["hyprland/workspaces"],
   "modules-right": [
@@ -31,7 +30,8 @@
     "custom/separator",
     "network",
     "custom/dot",
-    "clock"
+    "clock",
+    "custom/powermenu"
   ], 
   "custom/playerctl": {
       "format": "[<span foreground='#46c880'>  </span> <span>{}</span> ]",
@@ -134,7 +134,7 @@
     "format-bluetooth": " {volume}",
     "format-bluetooth-muted": " ",
     "tooltip": false,
-    "format-muted": "󰝟",
+    "format-muted": "󰝟 ",
     "format-icons": {
       "default": ["󰝟", "", "󰕾" , ""]
     },
